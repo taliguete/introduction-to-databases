@@ -3,7 +3,7 @@
 **Disciplina:** Laboratório de Banco de Dados  
 **Data:** 31/08/2026  
 **Equipe:** Team 01  
-**Módulo:** Alunos  
+**Módulo:** Pacientes
 
 ---
 
@@ -29,16 +29,13 @@ O objetivo de hoje é definir claramente:
 
 Preencha com os integrantes da equipe.
 
-- Nome completo:
-- Nome completo:
-- Nome completo:
-- Nome completo:
+- Nome completo: Talita de Oliveira Leite Sete 
 
 ---
 
 ## 2. Descrição do módulo
 
-Escreva uma breve descrição explicando o papel do **Módulo de Alunos** dentro do sistema.
+Escreva uma breve descrição explicando o papel do **Módulo de Pacientes** dentro do sistema.
 
 A descrição deve responder:
 
@@ -49,13 +46,13 @@ A descrição deve responder:
 
 ### Exemplo de nível esperado
 
-> O Módulo de Alunos será responsável por armazenar e organizar os dados acadêmicos básicos dos estudantes cadastrados no sistema. Esses dados poderão posteriormente ser utilizados por outros módulos, como matrículas, notas, frequência e biblioteca.
+>
 
 **Não copie o exemplo literalmente. Produza a descrição da própria equipe.**
 
 ### Descrição da equipe
 
-> Escreva aqui.
+> Este módulo de pacientes será responsável por armazenar e organizar os dados cadastrais básicos dos pacientes atendidos pela rede municipal de saúde. Essas informações identificam de forma única cada cidadão dentro do sistema e servem como base para os demais módulos operacionais da secretaria, como agendamento de consultas, prontuário/atendimentos, vacinações e exames. O cadastro de pacientes é o ponto de partida de qualquer atendimento: sem ele, nenhum outro módulo consegue vincular um serviço de saúde a uma pessoa específica 
 
 ---
 
