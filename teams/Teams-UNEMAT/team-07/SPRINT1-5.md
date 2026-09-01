@@ -64,10 +64,10 @@ Preencha a tabela abaixo.
 
 | Atributo | Tipo de dado previsto | Obrigatório? | Restrição prevista | Justificativa |
 |---|---|---|---|---|
-| `id_aluno` | `INT` | Sim | `PRIMARY KEY` | Identificador único do aluno |
-|  |  |  |  |  |
-|  |  |  |  |  |
-|  |  |  |  |  |
+| `id_paciente` | `INT` | Sim | `PRIMARY KEY` | Identificador único do paciente no sistema|
+|'nome_completo  | `VARCHAR(150)` | Sim  |  NOT NULL | Nome do paciente, essencial para qualquer atendimento  |
+| `data_nascimento` | DATE | Sim  | NOT NULL | Necessária para definir faixa etária, calendário vacinal e prioridades atendimento|
+|`CPF`  |VARCHAR(11)  | Sim | UNIQUE  | Identifica pacientes unicamente, porém recém nascidos podem não possuir o CPF ainda |
 |  |  |  |  |  |
 |  |  |  |  |  |
 
@@ -92,13 +92,13 @@ Informe qual atributo será utilizado como chave primária da tabela.
 
 **Atributo escolhido:**
 
-`________________________________________`
+`id_pacientes`
 
 ### Justificativa
 
 Explique por que esse atributo é adequado para identificar cada registro de forma única.
 
-> Escreva aqui.
+>                .
 
 ---
 
