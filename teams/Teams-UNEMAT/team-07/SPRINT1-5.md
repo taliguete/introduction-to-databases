@@ -33,14 +33,14 @@ Nesta Sprint 1/5, o foco é exclusivamente o **planejamento do banco de dados**.
 
 # 1. Identificação do aluno
 
-**Nome completo:**
+**Nome completo:** Talita de Oliveira Leite Sete
 
 > Preencha aqui.
 
 **Nome escolhido para o banco de dados:**
 
 ```text
-
+Secretaria de Saúde 
 ```
 
 ---
@@ -73,8 +73,7 @@ Alguns exemplos:
 
 ### Tema escolhido
 
-> Escreva aqui.
-
+> Sistema publico de saúde
 ---
 
 # 3. Descrição do sistema
@@ -90,7 +89,7 @@ A descrição deve responder:
 
 ### Descrição
 
-> Escreva aqui.
+> Esse banco de dados representa uma secretaria de saúde, do sistema público de saúde da cidade, apenas funcionários de dentro da própria secretária pode usar e dependendo do nível uso a ser liberado, apenas cargos altos ou de segurança teriam acesso a tudo. As principais informações dentro desse banco de dados seria dados dos pacientes, prontuários, agendamentos de consultas, informações sobre vacinas, estoques de vacinas e remédios. As principais operações será agendar consultas, desmarcar, gerar obituário de morte, transferir paciente de unidades, gerar relatórios e estatísticas. 
 
 ---
 
@@ -100,7 +99,7 @@ Explique qual é o principal objetivo do banco de dados proposto.
 
 ### Objetivo
 
-> Escreva aqui.
+> Organizar e centralizar as informações de pacientes e atendimentos de pacientes e atendimentos da rede municipal de saúde, garantindo rastreabilidade do histórico clínico-administrativo e apoiando a gestão da secretaria. 
 
 ---
 
@@ -112,11 +111,11 @@ Liste as principais funcionalidades ou informações que deverão ser contemplad
 
 ### O banco deverá permitir:
 
-1. 
-2. 
+1. Cadastro de pacientes.
+2. Cadastro de  
 3. 
 4. 
-5. 
+5.  
 
 ---
 
