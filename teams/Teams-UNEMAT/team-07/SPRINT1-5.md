@@ -33,9 +33,9 @@ Nesta Sprint 1/5, o foco é exclusivamente o **planejamento do banco de dados**.
 
 # 1. Identificação do aluno
 
-**Nome completo:** Talita de Oliveira Leite Sete
+**Nome completo:** 
 
-> Preencha aqui.
+> Talita de Oliveira Leite Sete
 
 **Nome escolhido para o banco de dados:**
 
@@ -112,10 +112,14 @@ Liste as principais funcionalidades ou informações que deverão ser contemplad
 ### O banco deverá permitir:
 
 1. Cadastro de pacientes.
-2. Cadastro de  
-3. 
-4. 
-5.  
+2. Cadastro de profissionais de saúde
+3. Cadastro de unidades de saúde 
+4. Registro de atendimentos/consultas
+5. Acesso ao prontuario 
+6. Acesso ao estoque de vacinas e medicamentos.
+7. Gerar relatorio e estatistícas
+8. Obituarios.
+9. Procedimentos.
 
 ---
 
@@ -149,8 +153,8 @@ Pagamento
 
 | Nº | Entidade | O que representa? |
 |---:|---|---|
-| 1 |  |  |
-| 2 |  |  |
+| 1 | Pacientes | Pessoa que é atendida pela rede de saúde |
+| 2 | Profissionais | Pessoa que trabalha dentro da secretária de saúde  |
 | 3 |  |  |
 | 4 |  |  |
 | 5 |  |  |
