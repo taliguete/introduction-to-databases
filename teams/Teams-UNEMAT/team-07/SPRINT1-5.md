@@ -155,8 +155,8 @@ Pagamento
 |---:|---|---|
 | 1 | Pacientes | Pessoa que é atendida pela rede de saúde |
 | 2 | Profissionais | Pessoa que trabalha dentro da secretária de saúde  |
-| 3 |  |  |
-| 4 |  |  |
+| 3 | Unidade_Saúde | Upa, hospital, posto, CAPS |
+| 4 | Atendimento  | Consulta/procedimento/atendimento realizado  |
 | 5 |  |  |
 | 6 |  |  |
 
@@ -172,33 +172,37 @@ Para cada entidade, identifique os principais atributos que deverão ser armazen
 
 **Nome da entidade:**
 
-```text
+```
+Pacientes
 
 ```
 
 | Atributo | Informação armazenada | Tipo de dado previsto | Obrigatório? |
 |---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| id_paciente  | Identificador único  | INT(PK, AUTO_INCREMENT  | Sim |
+| nome | Nome completo | VARCHAR | Sim  |
+| cpf | Número do cpf | VARCHAR(11) | Sim |
+| data_nascimento | Data de nascimento | DATE | Não |
+| sexo | Sexo | CHAR(1) | Não |
+| telefone | Contato | VARCHAR | Não |
+| endereço | Endereço | VARCHAR | Sim|
 
 ## Entidade 2
 
 **Nome da entidade:**
 
-```text
+```
+Profissional (Profissionais realmente da saúde que não exercem uma função administrativa) 
 
 ```
 
 | Atributo | Informação armazenada | Tipo de dado previsto | Obrigatório? |
 |---|---|---|---|
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
-|  |  |  |  |
+| id_profissional | Identificador único | INT(PK) | Sim |
+| nome | Nome completo | VARCHAR | Sim |
+| registro_conselho | CRM/COREN | VARCHAR | NULL |
+| cargo |  | VARCHAR | Sim |
+| setor |  | VARCHAR | Sim |
 
 ## Entidade 3
 
